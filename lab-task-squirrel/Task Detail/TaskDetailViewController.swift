@@ -76,6 +76,8 @@ class TaskDetailViewController: UIViewController {
             }
         } else {
             presentImagePicker()
+            
+            
         }
 
         
@@ -83,6 +85,26 @@ class TaskDetailViewController: UIViewController {
 
     private func presentImagePicker() {
         // TODO: Create, configure and present image picker.
+        // Create a configuration object
+        var config = PHPickerConfiguration(photoLibrary: PHPhotoLibrary.shared())
+
+        // Set the filter to only show images as options (i.e. no videos, etc.).
+        config.filter = .images
+
+        // Request the original file format. Fastest method as it avoids transcoding.
+        config.preferredAssetRepresentationMode = .current
+
+        // Only allow 1 image to be selected at a time.
+        config.selectionLimit = 1
+
+        // Instantiate a picker, passing in the configuration.
+        let picker = PHPickerViewController(configuration: config)
+
+        // Set the picker delegate so we can receive whatever image the user picks.
+        picker.delegate = self
+
+        // Present the picker.
+        present(picker, animated: true)
 
     }
 
@@ -95,11 +117,44 @@ class TaskDetailViewController: UIViewController {
 
 extension TaskDetailViewController: PHPickerViewControllerDelegate {
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
-        
-    }
-    
+        picker.dismiss(animated: true)
 
+        guard let result = results.first,
+              result.itemProvider.canLoadObject(ofClass: UIImage.self) else { return }
+
+        let provider = result.itemProvider
+
+        // ✅ Load the image into your UIImageView
+        provider.loadObject(ofClass: UIImage.self) { [weak self] image, error in
+            DispatchQueue.main.async {
+                if let uiImage = image as? UIImage {
+                    self?.completedImageView.image = uiImage
+                } else if let error = error {
+                    self?.showAlert(for: error)
+                }
+            }
+        }
+
+        // Dismiss the picker
+        picker.dismiss(animated: true)
+
+        // Get the selected image asset (we can grab the 1st item in the array since we only allowed a selection limit of 1)
+        
+
+        // Get image location
+        // PHAsset contains metadata about an image or video (ex. location, size, etc.)
+        guard let assetId = result.assetIdentifier,
+              let location = PHAsset.fetchAssets(withLocalIdentifiers: [assetId], options: nil).firstObject?.location else {
+            return
+        }
+
+        print("📍 Image location coordinate: \(location.coordinate)")
+    }
 }
+
+
+
+
 // TODO: Conform to PHPickerViewControllerDelegate + implement required method(s): done
 
 // TODO: Conform to MKMapKitDelegate + implement mapView(_:viewFor:) delegate method.

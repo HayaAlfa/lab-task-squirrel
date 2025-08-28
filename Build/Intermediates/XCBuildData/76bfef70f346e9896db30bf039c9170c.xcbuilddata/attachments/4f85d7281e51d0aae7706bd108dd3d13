@@ -1,0 +1,98 @@
+{
+  "" : {
+    "diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/lab-task-squirrel-master.dia",
+    "emit-module-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/lab-task-squirrel-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/lab-task-squirrel-master-emit-module.dia",
+    "swift-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/lab-task-squirrel-master.swiftdeps"
+  },
+  "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/hayaalfakieh/Downloads/lab-task-squirrel/lab-task-squirrel/AppDelegate.swift" : {
+    "const-values" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/hayaalfakieh/Downloads/lab-task-squirrel/lab-task-squirrel/Models/Task.swift" : {
+    "const-values" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/Task.swiftconstvalues",
+    "dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/Task.d",
+    "diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/Task.dia",
+    "index-unit-output-path" : "/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/Task.o",
+    "llvm-bc" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/Task.bc",
+    "object" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/Task.o",
+    "swift-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/Task.swiftdeps",
+    "swiftmodule" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/Task~partial.swiftmodule"
+  },
+  "/Users/hayaalfakieh/Downloads/lab-task-squirrel/lab-task-squirrel/SceneDelegate.swift" : {
+    "const-values" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/hayaalfakieh/Downloads/lab-task-squirrel/lab-task-squirrel/Task Detail/TaskAnnotationView.swift" : {
+    "const-values" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskAnnotationView.swiftconstvalues",
+    "dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskAnnotationView.d",
+    "diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskAnnotationView.dia",
+    "index-unit-output-path" : "/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskAnnotationView.o",
+    "llvm-bc" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskAnnotationView.bc",
+    "object" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskAnnotationView.o",
+    "swift-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskAnnotationView.swiftdeps",
+    "swiftmodule" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskAnnotationView~partial.swiftmodule"
+  },
+  "/Users/hayaalfakieh/Downloads/lab-task-squirrel/lab-task-squirrel/Task Detail/TaskDetailViewController.swift" : {
+    "const-values" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskDetailViewController.swiftconstvalues",
+    "dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskDetailViewController.d",
+    "diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskDetailViewController.dia",
+    "index-unit-output-path" : "/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskDetailViewController.o",
+    "llvm-bc" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskDetailViewController.bc",
+    "object" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskDetailViewController.o",
+    "swift-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskDetailViewController.swiftdeps",
+    "swiftmodule" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskDetailViewController~partial.swiftmodule"
+  },
+  "/Users/hayaalfakieh/Downloads/lab-task-squirrel/lab-task-squirrel/Task List/TaskCell.swift" : {
+    "const-values" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskCell.swiftconstvalues",
+    "dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskCell.d",
+    "diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskCell.dia",
+    "index-unit-output-path" : "/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskCell.o",
+    "llvm-bc" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskCell.bc",
+    "object" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskCell.o",
+    "swift-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskCell.swiftdeps",
+    "swiftmodule" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskCell~partial.swiftmodule"
+  },
+  "/Users/hayaalfakieh/Downloads/lab-task-squirrel/lab-task-squirrel/Task List/TaskListViewController.swift" : {
+    "const-values" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskListViewController.swiftconstvalues",
+    "dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskListViewController.d",
+    "diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskListViewController.dia",
+    "index-unit-output-path" : "/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskListViewController.o",
+    "llvm-bc" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskListViewController.bc",
+    "object" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskListViewController.o",
+    "swift-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskListViewController.swiftdeps",
+    "swiftmodule" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskListViewController~partial.swiftmodule"
+  },
+  "/Users/hayaalfakieh/Downloads/lab-task-squirrel/lab-task-squirrel/TaskComposeViewController.swift" : {
+    "const-values" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskComposeViewController.swiftconstvalues",
+    "dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskComposeViewController.d",
+    "diagnostics" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskComposeViewController.dia",
+    "index-unit-output-path" : "/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskComposeViewController.o",
+    "llvm-bc" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskComposeViewController.bc",
+    "object" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskComposeViewController.o",
+    "swift-dependencies" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskComposeViewController.swiftdeps",
+    "swiftmodule" : "/Users/hayaalfakieh/Downloads/lab-task-squirrel/Build/Intermediates/lab-task-squirrel.build/Debug-iphoneos/lab-task-squirrel.build/Objects-normal/arm64/TaskComposeViewController~partial.swiftmodule"
+  }
+}

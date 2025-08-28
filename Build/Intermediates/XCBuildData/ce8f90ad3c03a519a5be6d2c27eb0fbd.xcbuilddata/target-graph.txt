@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'lab-task-squirrel' in project 'lab-task-squirrel' (no dependencies)
