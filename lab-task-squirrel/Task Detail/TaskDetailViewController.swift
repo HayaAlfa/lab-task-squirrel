@@ -110,8 +110,23 @@ class TaskDetailViewController: UIViewController {
 
     func updateMapView() {
         // TODO: Set map viewing region and scale
+        // Make sure the task has image location.
+        guard let imageLocation = task.imageLocation else { return }
+
+        // Get the coordinate from the image location. This is the latitude / longitude of the location.
+        // https://developer.apple.com/documentation/mapkit/mkmapview
+        let coordinate = imageLocation.coordinate
+
+        // Set the map view's region based on the coordinate of the image.
+        // The span represents the maps's "zoom level". A smaller value yields a more "zoomed in" map area, while a larger value is more "zoomed out".
+        let region = MKCoordinateRegion(center: coordinate, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+        mapView.setRegion(region, animated: true)
+       
 
         // TODO: Add annotation to map view
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = coordinate
+        mapView.addAnnotation(annotation)
     }
 }
 
@@ -149,6 +164,31 @@ extension TaskDetailViewController: PHPickerViewControllerDelegate {
         }
 
         print("📍 Image location coordinate: \(location.coordinate)")
+        
+       
+
+        guard provider.canLoadObject(ofClass: UIImage.self) else { return }
+
+        provider.loadObject(ofClass: UIImage.self) { [weak self] object, error in
+            if let error = error {
+                DispatchQueue.main.async {
+                    self?.showAlert(for: error)
+                }
+                return
+            }
+
+            guard let image = object as? UIImage else { return }
+            print("🌉 We have an image!")
+
+            DispatchQueue.main.async {
+                // Save image + location to your task
+                self?.task.set(image, with: location)
+
+                // Refresh UI
+                self?.updateUI()
+                self?.updateMapView()
+            }
+        }
     }
 }
 
