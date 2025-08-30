@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8550C882E62C01A003B9605 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A8550C872E62C008003B9605 /* .gitignore */; };
 		A8748BA42E617D5F00900D08 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8748BA32E61704700900D08 /* PhotoViewController.swift */; };
 		CB57503A2929E62C00890962 /* TaskAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5750392929E62C00890962 /* TaskAnnotationView.swift */; };
 		CB602B9929247359006C6727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB602B9829247359006C6727 /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8550C872E62C008003B9605 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A8748BA32E61704700900D08 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		CB5750392929E62C00890962 /* TaskAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnnotationView.swift; sourceTree = "<group>"; };
 		CB602B9529247359006C6727 /* lab-task-squirrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-task-squirrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +54,7 @@
 		CB602B8C29247359006C6727 = {
 			isa = PBXGroup;
 			children = (
+				A8550C872E62C008003B9605 /* .gitignore */,
 				CB602B9729247359006C6727 /* lab-task-squirrel */,
 				CB602B9629247359006C6727 /* Products */,
 				A8748BA32E61704700900D08 /* PhotoViewController.swift */,
@@ -175,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8550C882E62C01A003B9605 /* .gitignore in Resources */,
 				CB602BA52924735C006C6727 /* LaunchScreen.storyboard in Resources */,
 				CB602BA22924735C006C6727 /* Assets.xcassets in Resources */,
 				CB602BA029247359006C6727 /* Main.storyboard in Resources */,
