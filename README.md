@@ -46,7 +46,7 @@ This app is perfect for personal productivity, fieldwork documentation, or as a 
 - **Sample Data:**
   - The app includes mocked tasks for demonstration and testing purposes.
 
-## Screenshots
+## Demo GIF
 
 ![Demo GIF](Lab1Demo.gif)
 
