@@ -316,6 +316,18 @@ SWIFT_CLASS("_TtC17lab_task_squirrel11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class NSString;
+@class NSBundle;
+@class NSCoder;
+SWIFT_CLASS("_TtC17lab_task_squirrel19PhotoViewController")
+@interface PhotoViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIScene;
 SWIFT_CLASS("_TtC17lab_task_squirrel13SceneDelegate")
@@ -331,15 +343,12 @@ SWIFT_CLASS("_TtC17lab_task_squirrel13SceneDelegate")
 @end
 
 @protocol MKAnnotation;
-@class NSString;
-@class NSCoder;
 SWIFT_CLASS("_TtC17lab_task_squirrel18TaskAnnotationView")
 @interface TaskAnnotationView : MKAnnotationView
 - (nonnull instancetype)initWithAnnotation:(id <MKAnnotation> _Nullable)annotation reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
 @class UILabel;
 SWIFT_CLASS("_TtC17lab_task_squirrel8TaskCell")
 @interface TaskCell : UITableViewCell
@@ -350,7 +359,6 @@ SWIFT_CLASS("_TtC17lab_task_squirrel8TaskCell")
 @end
 
 @class UITextField;
-@class NSBundle;
 SWIFT_CLASS("_TtC17lab_task_squirrel25TaskComposeViewController")
 @interface TaskComposeViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified titleField;
@@ -370,8 +378,17 @@ SWIFT_CLASS("_TtC17lab_task_squirrel24TaskDetailViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
+@class MKMapView;
+@interface TaskDetailViewController (SWIFT_EXTENSION(lab_task_squirrel)) <MKMapViewDelegate>
+- (MKAnnotationView * _Nullable)mapView:(MKMapView * _Nonnull)mapView viewForAnnotation:(id <MKAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIStoryboardSegue;
+@interface TaskDetailViewController (SWIFT_EXTENSION(lab_task_squirrel))
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+@end
+
+@class UITableView;
 SWIFT_CLASS("_TtC17lab_task_squirrel22TaskListViewController")
 @interface TaskListViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;

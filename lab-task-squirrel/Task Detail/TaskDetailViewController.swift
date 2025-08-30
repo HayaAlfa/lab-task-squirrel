@@ -19,6 +19,9 @@ class TaskDetailViewController: UIViewController {
     @IBOutlet private weak var descriptionLabel: UILabel!
     @IBOutlet private weak var attachPhotoButton: UIButton!
 
+    @IBOutlet private weak var viewPhoto: UIButton!
+    
+  
     // MapView outlet
     @IBOutlet private weak var mapView: MKMapView!
 
@@ -28,8 +31,13 @@ class TaskDetailViewController: UIViewController {
         super.viewDidLoad()
 
         // TODO: Register custom annotation view
+        // Register custom annotation view
+        mapView.register(TaskAnnotationView.self, forAnnotationViewWithReuseIdentifier: TaskAnnotationView.identifier)
 
         // TODO: Set mapView delegate
+        // Set mapView delegate
+        mapView.delegate = self
+
 
         // UI Candy
         mapView.layer.cornerRadius = 12
@@ -56,6 +64,7 @@ class TaskDetailViewController: UIViewController {
 
         mapView.isHidden = !task.isComplete
         attachPhotoButton.isHidden = task.isComplete
+        viewPhoto.isHidden = !task.isComplete
     }
 
     @IBAction func didTapAttachPhotoButton(_ sender: Any) {
@@ -140,15 +149,15 @@ extension TaskDetailViewController: PHPickerViewControllerDelegate {
         let provider = result.itemProvider
 
         // ✅ Load the image into your UIImageView
-        provider.loadObject(ofClass: UIImage.self) { [weak self] image, error in
-            DispatchQueue.main.async {
-                if let uiImage = image as? UIImage {
-                    self?.completedImageView.image = uiImage
-                } else if let error = error {
-                    self?.showAlert(for: error)
-                }
-            }
-        }
+//        provider.loadObject(ofClass: UIImage.self) { [weak self] image, error in
+//            DispatchQueue.main.async {
+//                if let uiImage = image as? UIImage {
+//                    self?.completedImageView.image = uiImage
+//                } else if let error = error {
+//                    self?.showAlert(for: error)
+//                }
+//            }
+//        }
 
         // Dismiss the picker
         picker.dismiss(animated: true)
@@ -236,4 +245,37 @@ extension TaskDetailViewController {
 
         present(alertController, animated: true)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        // Segue to Detail View Controller
+     if segue.identifier == "PhotoSegue" {
+         if let photoViewController = segue.destination as? PhotoViewController {
+             photoViewController.task = task
+          }
+      }
+  }
 }
+extension TaskDetailViewController: MKMapViewDelegate {
+    // Implement mapView(_:viewFor:) delegate method.
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        
+        // Skip the user location annotation (blue dot).
+        if annotation is MKUserLocation {
+            return nil
+        }
+
+        // Dequeue the annotation view for the reuse identifier.
+        guard let annotationView = mapView.dequeueReusableAnnotationView(
+            withIdentifier: TaskAnnotationView.identifier,
+            for: annotation
+        ) as? TaskAnnotationView else {
+            fatalError("Unable to dequeue TaskAnnotationView")
+        }
+
+        // Configure with the task’s image.
+        annotationView.configure(with: task.image)
+        return annotationView
+    }
+}
+
