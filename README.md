@@ -48,7 +48,7 @@ This app is perfect for personal productivity, fieldwork documentation, or as a 
 
 ## Demo GIF
 
-![Demo GIF](Lab1Demo.gif)
+<img src="Lab1Demo.gif" alt="Demo GIF" width="200" />
 
 ## Getting Started
 
