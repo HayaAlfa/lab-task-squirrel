@@ -1,28 +1,54 @@
 # lab-task-squirrel
 
-An iOS app for managing and completing tasks with photo and location context.
+**Author:** Haya Alfakieh  
+**Z#:** z23568272
+
+---
 
 ## Overview
 
-**lab-task-squirrel** is a sample iOS application that allows users to:
-- View a list of tasks
-- Add new tasks
-- Mark tasks as complete by attaching a photo (with location metadata)
-- View task details, including completion status and location on a map
+**lab-task-squirrel** is an iOS application designed to help users manage, track, and complete personal tasks in a fun and interactive way. The app allows users to create tasks, mark them as complete by attaching a photo, and view the location where the task was completed. This project demonstrates the integration of UIKit, CoreLocation, MapKit, and PhotosUI, as well as custom UI components and map annotations. It is ideal for learning about iOS development patterns, user interface design, and working with device features such as the camera, photo library, and location services.
 
-This app demonstrates the use of UIKit, CoreLocation, MapKit, and PhotosUI, as well as custom annotation views on maps.
+### Detailed Description
+
+With **lab-task-squirrel**, users can:
+- Create and manage a list of tasks, each with a title and description.
+- Mark tasks as complete by attaching a photo from their photo library.
+- Automatically capture and display the location where the completion photo was taken (if available in photo metadata).
+- View detailed information about each task, including its completion status, attached photo, and completion location on a map.
+- Enjoy a visually engaging experience with custom map annotations that display the attached photo at the completion location.
+
+This app is perfect for personal productivity, fieldwork documentation, or as a learning tool for iOS development.
 
 ## Features
 
-- **Task List:** Browse all tasks, see which are complete/incomplete
-- **Task Detail:** View task details, attach a photo to complete a task, and see the completion location on a map
-- **Add Task:** Compose new tasks with a title and description
-- **Photo & Location:** Attach a photo to a task; the app records the photo's location and displays it on a map
-- **Custom Map Annotation:** Completed tasks show a custom annotation with the attached photo on the map
+- **Task Management:**
+  - Add new tasks with a title and description.
+  - View a list of all tasks, with clear indicators for completed and incomplete tasks.
+  - Delete or update tasks (if implemented).
+
+- **Task Completion with Photo:**
+  - Mark a task as complete by attaching a photo from the photo library.
+  - The app requests photo library permissions as needed.
+
+- **Location Integration:**
+  - When a photo is attached, the app reads the location metadata (if available) and displays the completion location on a map.
+  - Custom map annotation shows the attached photo at the completion site.
+
+- **Task Details:**
+  - View detailed information for each task, including title, description, completion status, attached photo, and map location.
+  - View the attached photo in full screen.
+
+- **Modern iOS UI:**
+  - Built with UIKit, using storyboards and programmatic UI components.
+  - Custom table view cells and annotation views for a polished look.
+
+- **Sample Data:**
+  - The app includes mocked tasks for demonstration and testing purposes.
 
 ## Screenshots
 
-> _Add screenshots of the app here if available_
+![Demo GIF](Lab1Demo.gif)
 
 ## Getting Started
 
@@ -54,7 +80,8 @@ This app demonstrates the use of UIKit, CoreLocation, MapKit, and PhotosUI, as w
 - `PhotoViewController.swift` — View attached photo in detail
 
 ## Credits
-- Created by Charlie Hieger and Haya Alfakieh
+- Developed by Haya Alfakieh (z23568272)
+- Original template and guidance by Charlie Hieger
 
 ## License
 
